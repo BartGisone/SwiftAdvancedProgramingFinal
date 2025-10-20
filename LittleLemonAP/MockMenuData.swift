@@ -16,7 +16,6 @@ let mockFoodItems: [MenuItem] = (1...12).map { index in
     )
 }
 
-// 8 Drink MenuItems
 let mockDrinkItems: [MenuItem] = (1...8).map { index in
     MenuItem(
         title: "Drink Item \(index)",
@@ -26,7 +25,6 @@ let mockDrinkItems: [MenuItem] = (1...8).map { index in
     )
 }
 
-// 4 Dessert MenuItems
 let mockDessertItems: [MenuItem] = (1...4).map { index in
     MenuItem(
         title: "Dessert Item \(index)",
